@@ -21,6 +21,7 @@ class DetailActivity2 : AppCompatActivity() {
 
         //coba
         // komen kedua
+        // ketiga
 
         videoView.setVideoURI(Uri.parse("android.resource://"+packageName+"/"+data.trailer))
         videoView.start()
