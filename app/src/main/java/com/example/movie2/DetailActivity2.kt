@@ -19,6 +19,8 @@ class DetailActivity2 : AppCompatActivity() {
         tv_genre.text = data.genre
         tv_desc.text = data.desc
 
+        //coba
+
         videoView.setVideoURI(Uri.parse("android.resource://"+packageName+"/"+data.trailer))
         videoView.start()
 
