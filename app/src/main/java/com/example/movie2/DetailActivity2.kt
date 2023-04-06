@@ -20,6 +20,7 @@ class DetailActivity2 : AppCompatActivity() {
         tv_desc.text = data.desc
 
         //coba
+        // komen kedua
 
         videoView.setVideoURI(Uri.parse("android.resource://"+packageName+"/"+data.trailer))
         videoView.start()
